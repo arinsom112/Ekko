@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:ekko/core_theme/theme.dart';
+import 'package:ekko/features/auth/view/pages/login_page.dart';
 import 'package:ekko/features/auth/view/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: AppTheme.darkThemeMode,
-        home: SignupPage());
+        home: LoginPage());
   }
 }
